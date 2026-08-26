@@ -1,0 +1,26 @@
+# XcodeGen генерирует проект из project.yml — сам .xcodeproj не версионируем.
+*.xcodeproj/
+*.xcworkspace/
+
+# Локальные настройки подписи (Team ID)
+Config/Local.xcconfig
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# macOS
+.DS_Store
