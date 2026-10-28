@@ -47,3 +47,7 @@ Pagefold/
 ```
 
 Дизайн-система собрана в `Support/Theme.swift` (цвета, типографика на семантических стилях ради Dynamic Type, отступы, хаптика) и `Support/Components.swift` (бумажное зерно, разлиновка, фирменный загнутый уголок `DogEarRect`, кнопки, пустые состояния, тосты).
+
+## Общая папка IPA
+
+Выпуск для IPA Shelf настроен через `tools/release-ipa.sh`. Сборки публикуются в iCloud Drive → **IPA Shelf**. Подробности — [IPA_RELEASE.md](IPA_RELEASE.md).
